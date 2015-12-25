@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/guoyang/Workspace/workspace_github/Marsdaemon2/DemoMarsdaemon/build/intermediates/exploded-aar/Marsdaemon2/LibMarsdaemon/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="43b527e25decf1d24c3365c600eef0f5b01ba06e">
+        <dex dex="/Users/guoyang/Workspace/workspace_github/Marsdaemon2/DemoMarsdaemon/build/intermediates/pre-dexed/debug/classes-9e71f3a69a7a75f0e6ad61f439036846c69c2471.jar" />
+    </item>
+
+</items>
