@@ -27,8 +27,14 @@ public class MyApplication2 extends Application {
 
 
     private DaemonConfigurations createDaemonConfigurations(){
-        DaemonConfigurations.DaemonConfiguration configuration1 = new DaemonConfigurations.DaemonConfiguration("com.marswin89.marsdaemon.demo:process1", Service1.class.getCanonicalName(), Receiver1.class.getCanonicalName());
-        DaemonConfigurations.DaemonConfiguration configuration2 = new DaemonConfigurations.DaemonConfiguration("com.marswin89.marsdaemon.demo:process2", Service2.class.getCanonicalName(), Receiver2.class.getCanonicalName());
+        DaemonConfigurations.DaemonConfiguration configuration1 = new DaemonConfigurations.DaemonConfiguration(
+                "com.marswin89.marsdaemon.demo:process1",
+                Service1.class.getCanonicalName(),
+                Receiver1.class.getCanonicalName());
+        DaemonConfigurations.DaemonConfiguration configuration2 = new DaemonConfigurations.DaemonConfiguration(
+                "com.marswin89.marsdaemon.demo:process2",
+                Service2.class.getCanonicalName(),
+                Receiver2.class.getCanonicalName());
         DaemonConfigurations.DaemonListener listener = new MyDaemonListener();
         //return new DaemonConfigurations(configuration1, configuration2);//listener can be null
         return new DaemonConfigurations(configuration1, configuration2, listener);

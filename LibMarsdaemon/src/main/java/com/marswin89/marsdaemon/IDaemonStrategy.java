@@ -86,6 +86,8 @@ public interface IDaemonStrategy {
 				default:
 					if(Build.MODEL != null && Build.MODEL.toLowerCase().startsWith("mi")){
 						mDaemonStrategy = new DaemonStrategyXiaomi();
+					}else if(Build.MODEL != null && Build.MODEL.toLowerCase().startsWith("a31")){
+						mDaemonStrategy = new DaemonStrategy21();
 					}else{
 						mDaemonStrategy = new DaemonStrategyUnder21();
 					}

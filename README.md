@@ -2,10 +2,13 @@
 
 It is a lite library, you can make your project depend it easily, and your project will be UNDEAD.
 
-  * support keeping alive from ADNROID_API 9 to ANDRIOD_API 23
-  * support keeping alive in most of devices(contains SUMSUNG\HUAWEI\MEIZU\MI\NEXUS..)
-  * support keeping alive in FORCE_CLOSE from SystemSettings and MEMORY_CLEAN from third-part apps (such like CleanMaster\360 and so on)
-  * surpports to keep BOOT_RECEIVER work well simplely
+  * support to keep alive from Android_API 9 to Android_API 23
+  * support to keep alive in most of devices(contains Sumsung\Huawei\Meizu\Mi\Nexus..)
+  * support to keep alive in FORCE_CLOSE from SystemSettings and MEMORY_CLEAN from third-part apps (such like CleanMaster\360 and so on)
+  * support to keep BOOT_RECEIVER work well simplely
+
+my Blog in  Chinese here:
+[http://blog.csdn.net/marswin89/article/details/50917098](http://blog.csdn.net/marswin89/article/details/50917098)
 
 
 ### Version
