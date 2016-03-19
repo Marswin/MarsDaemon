@@ -3,7 +3,7 @@
 It is a lite library, you can make your project depend it easily, and your project will be UNDEAD.
 
   * support to keep alive from Android_API 9 to Android_API 23
-  * support to keep alive in most of devices(contains Sumsung\Huawei\Meizu\Mi\Nexus..)
+  * support to keep alive in most of devices(contains Samsung\Huawei\Meizu\Mi\Nexus..)
   * support to keep alive in FORCE_CLOSE from SystemSettings and MEMORY_CLEAN from third-part apps (such like CleanMaster\360 and so on)
   * support to keep BOOT_RECEIVER work well simplely
 
